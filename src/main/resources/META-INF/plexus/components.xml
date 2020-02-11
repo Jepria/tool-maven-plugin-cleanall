@@ -1,0 +1,15 @@
+<component-set>
+  <components>
+    <component>
+      <role>org.apache.maven.lifecycle.Lifecycle</role>
+      <role-hint>cleanall</role-hint>
+      <implementation>org.apache.maven.lifecycle.Lifecycle</implementation>
+      <configuration>
+        <id>cleanall</id>
+        <phases>
+          <phase>clean-all</phase>
+        </phases>
+      </configuration>
+    </component>
+  </components>
+</component-set>
